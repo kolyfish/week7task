@@ -1,8 +1,8 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html,
 body,
 div,
@@ -91,6 +91,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,18 +106,22 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
   　background-image: url(" https://image.shutterstock.com/image-photo/smart-city-abstract-polygon-pattern-600w-1820093804.jpg");
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -124,6 +129,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -133,13 +139,16 @@ table {
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
 /*響應式網頁圖片*/
 img {
   max-width: 100%;
   height: auto;
 }
+
 * {
   font-family: "PingFang TC", sans-serif;
   font-size: 24px;
@@ -149,58 +158,58 @@ img {
   width: 1200px;
   margin: 0 auto;
 }
-.content{
-  border-top:1px solid black;
-  
+
+.content {
+  border-top: 1px solid black;
 }
+
 .header {
-    margin-top: 2%;
+  margin-top: 2%;
   padding-top: 2%;
 }
+
 h1 {
   top: 40px;
   left: 360px;
   width: 274px;
   font: normal normal normal 80px/95px SF Pro Text;
-
 }
+
 .content img {
   top: 302px;
   left: 360px;
-  background: transparent url("img/photo-1536180931879-fd2d652efddc.png") 0% 0%
-    no-repeat padding-box;
-
+  background: transparent url("img/photo-1536180931879-fd2d652efddc.png") 0% 0% no-repeat padding-box;
   margin: 48px 0 48px 0;
 }
-.sub-title{
+
+.sub-title {
   font-size: 32pt;
   text-align: left;
-  font: normal normal bold 32px/48px Noto Sans,regular ;
+  font: normal normal bold 32px/48px Noto Sans,regular;
   letter-spacing: 0px;
   color: #000000;
- 
   margin-bottom: 16px;
   border-bottom: 1px solid #000000;
-
 }
+
 .content h2 span {
   text-align: left;
   font: normal normal 600 24px/29px Roboto,medium;
   letter-spacing: 0px;
   color: #a00404;
- 
   padding: 16px;
 }
-.profile{
-  border-bottom:1px solid black;
+
+.profile {
+  border-bottom: 1px solid black;
 }
+
 .profile p {
   font-size: 24pt;
   text-align: left;
   font: normal normal 300 24px/36px PingFang TC;
   letter-spacing: 0px;
   color: #000000;
- 
   margin-bottom: 24px;
 }
 
@@ -209,7 +218,6 @@ h1 {
   font: normal normal 600 24px/29px Roboto,medium;
   letter-spacing: 0px;
   color: #a00404;
- 
   padding: 16px;
 }
 
@@ -219,6 +227,7 @@ h1 {
   /*height: 550px;*/
   margin-bottom: 72px;
 }
+
 .content_skills_title {
   text-align: center;
   width: 996px;
@@ -227,34 +236,39 @@ h1 {
   padding: 24px 0 8px;
   border-bottom: 1px solid #fff;
 }
-.content_skills_title_word{
+
+.content_skills_title_word {
   font: normal normal medium 32px PingFang TC;
-letter-spacing: 0px;
-color: #FFFFFF;
+  letter-spacing: 0px;
+  color: #FFFFFF;
 }
+
 .content_skills_title span {
   font: normal normal medium 12px Roboto;
   margin-left: 16px;
 }
+
 .content_skills p {
   font: normal normal 300 24px/36px SF Pro Text;
   letter-spacing: 0px;
   color: #ffffff;
   /*     opacity: 1; */
 }
+
 .content_skills_list {
   font: normal normal normal 24px/36px SF Pro Text;
   width: 220px;
   height: 327px;
   margin: 0 auto;
-
   padding: 10px 0 10px 24px;
   border-left: 1px solid #fff;
   /*   margin-bottom:51.5px; */
 }
-.content_skills_list P{
+
+.content_skills_list P {
   line-height: 1.5;
 }
+
 .img_sixlogo {
   display: inline-block;
   background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/13f2e6e6b718b6abafb62ce7a672d42fc39eaeae/week1/Group%201.svg);
@@ -263,50 +277,52 @@ color: #FFFFFF;
   margin-top: 8px;
   margin-bottom: 8.15px;
 }
+
 .content_work {
   margin-bottom: 76px;
 }
+
 .content_work h2 span {
   text-align: left;
   font: normal normal 600 24px/29px Roboto,medium;
   letter-spacing: 0px;
   color: #a00404;
-
   padding: 16px;
 }
+
 .content_work_div {
   border-left: 1px solid #96a9c4;
-  
   margin-left: 24px;
   padding-left: 24px;
 }
+
 .content_work span {
   font-size: 20pt;
   text-align: left;
   font: normal normal 300 20px/30px PingFang TC;
   letter-spacing: 0px;
   color: #000000;
-
 }
+
 .content_work_msg {
   /*     border-bottom: 1px solid #000; */
   width: 642px;
   height: 150px;
   margin-bottom: 32px;
 }
-.content_work_msg span{
-  font: normal normal normal 20px/30px Noto Sans;
-letter-spacing: 0px;
-color: #000000;
 
+.content_work_msg span {
+  font: normal normal normal 20px/30px Noto Sans;
+  letter-spacing: 0px;
+  color: #000000;
 }
+
 .content_work p {
   text-align: left;
   font: normal normal medium 24px/36px PingFang TC;
-
   color: #000000;
- 
 }
+
 .img_simtree {
   display: inline-block;
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week1/simtree.png?raw=true);
@@ -315,42 +331,45 @@ color: #000000;
   margin-top: 8px;
   margin-bottom: 8px;
 }
-.footer {
 
+.footer {
   background: #415165 0% 0% no-repeat padding-box;
   opacity: 1;
 }
+
 .footer_contact_method {
   text-align: center;
   width: 1200px;
   margin: 0 auto;
 }
+
 .footer_contact_method_title {
   padding-top: 32px;
   padding-bottom: 16px;
   margin-bottom: 32px;
   font-size: 32pt;
   font: normal normal medium 32px/45px PingFang TC;
-
   color: #ffffff;
-
   border-bottom: 1px solid #ffffff;
 }
+
 .footer_contact_method_title span {
   margin-right: 16px;
 }
+
 .footer_contact_method_list {
   font: normal normal 300 24px/36px PingFang TC;
   letter-spacing: 0px;
   color: #ffffff;
-
 }
+
 .footer_contact_method_list p {
   font-size: 24px;
   margin-bottom: 16px;
 }
-.footer ul li a:hover {
-  .opacity1 {
-    opacity: 0.25;
-  }
+
+.footer ul li a:hover .opacity1 {
+  opacity: 0.25;
 }
+
+/*# sourceMappingURL=index.css.map */
